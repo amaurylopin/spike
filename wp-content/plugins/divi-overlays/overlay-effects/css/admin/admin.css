@@ -1,0 +1,171 @@
+.label-color-field {
+	vertical-align:top;
+}
+.enableurltrigger_filters,
+.do-list-pages-container,
+.do-list-exceptionpages-container,
+.do-list-categories-container,
+.do-list-exceptioncategories-container,
+.do-list-tags-container,
+.do-list-exceptiontags-container,
+.divi_automatictrigger_timed,
+.divi_automatictrigger_scroll,
+.enable_customizations,
+.form_schedule,
+.daterangepicker,
+.do-onetime,
+.do-recurring,
+.do-recurring-user-msg,
+.do-at-devices,
+.do-at-onceperload,
+.do-at-scheduling {
+	display:none;
+}
+
+.do-show {
+	display:block !important;
+}
+
+.do-hide {
+	display:none !important;
+}
+
+.do-list-pages-container,
+.do-list-categories-container,
+.do-list-tags-container {
+	margin-top:4px;
+}
+
+.post_at_scroll {
+	width:70px;
+}
+
+.dov_closebtn_cookie,
+.post_doclosebtn_fontsize,
+.post_doclosebtn_borderradius,
+.post_doclosebtn_padding {
+	width:37px;
+}
+
+.overlay-customclose-btn {
+	width: auto;
+	height: auto;
+	display:block;
+	position:relative;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	font-size: 100px;
+	line-height:60px;
+	min-height: 15px;
+	color:#333;
+	background-color:transparent;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+.overlay-customclose-btn:after {
+	content: ' ';
+	display:block;
+	font-size:70px;
+	height:25px;
+	width:25px;
+	z-index:99;
+	position:relative;
+}
+
+.overlay-customclose-btn span {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.settings_page_divi_overlays_dashboard input#api_key, 
+.settings_page_divi_overlays_dashboard input#activation_email {
+	-webkit-text-security: disc !important;
+}
+
+.select-dov_timezone {
+	width:250px !important;
+}
+
+.no-margin {
+	margin:0;
+}
+
+.dashicons-large {
+	font-size: 30px;
+}
+
+.dashicons-success {
+	color:#5cb85c;
+}
+
+.small-text {
+	font-size:14px;
+}
+
+.dashicons-fail {
+	color:#d9534f;
+}
+
+.dl-edm-heading-msg{
+	display:inline-block;
+}
+
+.do-exceptedpages,
+.do-exceptedcategories,
+.do-exceptedtags {
+	margin:10px 10px 10px 0;
+}
+
+.at_pages select,
+.at_pages .select2 input,
+.at_categories select,
+.at_categories .select2 input,
+.at_tags select,
+.at_tags .select2 input {
+	width:100% !important;
+}
+
+.at_categories,
+.at_tags {
+	margin-top:17px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__choice {
+    background-color: #f7f7f7;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    outline: 0;
+    background-image: -webkit-linear-gradient(top, #fff 50%, #eee 100%);
+    background-image: -o-linear-gradient(top, #fff 50%, #eee 100%);
+    background-image: linear-gradient(to bottom, #fff 50%, #eee 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0);
+	margin: 6px 0 0 6px;
+	padding: 2px 6px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field {
+	margin: 4px 3px 0;
+}
+
+.select2-container--bootstrap .select2-results > .select2-results__options {
+    max-height: 185px !important;
+    overflow-y: auto;
+}
+
+.select2-container .select2-search--inline {
+	width: 95%;
+}
+
+.form_schedule .form-control {
+	padding:6px 4px;
+	width: auto;
+}
+
+.do-recurring-user-msg {
+	margin:9px 0 0;
+}
